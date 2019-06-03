@@ -1,0 +1,439 @@
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/vazir/Vazir.eot') format("embedded-opentype"),
+         url('../fonts/vazir/Vazir.woff') format("woff"),
+         url('../fonts/vazir/Vazir.ttf') format("truetype"),
+         url('../fonts/vazir/Vazir.svg') format("svg");
+	font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-family: vazir;
+	padding:0;
+	margin:0;
+	
+}
+
+#main-title{
+	font-size: 4rem;
+}
+
+#topofpage{
+	width: 100%;
+	min-height: 40px;
+	background-color: #333;
+}
+
+#topofpage-top-center{
+	max-width:272px;
+	min-height:30px;
+	float:none;
+	margin:0 auto;
+}
+
+#top-li{
+	display:inline-block;
+	margin:10px 17px 0 0;
+}
+
+#top-p{
+	font-size:13px;
+	color:#999;
+	border-bottom: none;
+}
+
+#top-p:hover{
+	cursor:pointer;
+	color:white;
+
+}
+
+#top-a{
+	font-size:13px;
+	color:#999;
+	text-decoration: none;
+
+}
+
+#top-a:hover{
+	cursor:pointer;
+	color:white;
+
+}
+
+#topnavul{
+	margin-top: 8px;
+}
+
+#topofpage-top{
+	width: 100%;
+	height:3px;
+	background: #333;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #333, #52c234);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #333, #52c234); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#section1{
+	background-image: url('../images/b25.png');
+	background-color: #e8e8e8;
+	width:100%;
+
+
+
+}
+#section1jumborton{
+	background-color: transparent;
+}
+
+#navbar-top{
+	transition: top 0.5s;
+	top: -70px;
+	box-shadow: 0 0.5px 4px #999;
+}
+#section2{
+	background-color:#6B8E23;
+	width: 100%;
+	margin-top: -32px;
+	min-height: 610px;
+	border-top:1px solid #cfcfcf;
+
+}
+#section1navul{
+	direction: rtl;
+	float:right;
+    margin: 0 auto;
+
+}
+
+
+
+#navsection1{
+	background-color: #f8f8f8;
+	border-bottom: 2px solid #cdcdcd;
+}
+#navsection1 ul li a{
+	color:#444;
+	font-size:16px;
+	margin-top: 9px;
+	height: 40px;
+	transition: 200ms;
+}
+
+#navsection1 ul li a:hover{
+	color:#6B8E23;
+	background: none;
+}
+#section1btn{
+	width: 160px;
+	height: 40px;
+	overflow: hidden;
+	border-radius: 20px;
+	display: block;
+	text-align: center;
+	margin:0 auto;
+	font-size: 14px;
+	border: 1px solid #6B8E23;
+	color:#000;
+	background-image: linear-gradient(to right, #f7f7f7 50%, #6B8E23 50%);
+	background-size: 200% 100%;
+	-webkit-transition: all 0.30s ease-in;
+	-moz-transition: all 0.30s ease-in;
+	transition: all 0.30s ease-in;
+
+}
+
+#section1btn:hover{
+	-webkit-transition: all 0.30s ease-in;
+	-moz-transition: all 0.30s ease-in;
+	transition: all 0.30s ease-in;
+	background-position: bottom right;
+	color: #fff;
+}
+
+#section1jumborton h1{
+	color: #333;
+	padding:5px 0 70px 0;
+}
+
+#section3{
+	width:100%;
+	min-height:400px;
+	background-color: #f2f2f2;
+
+}
+
+#section2jumborton{
+	background-color: transparent;
+}
+
+#section2jumborton h2{
+	color: white;
+
+
+}
+
+.page-scroll span{
+	font-size:17px;
+	color:#333;
+}
+
+
+.page-scroll span:hover{
+	cursor:pointer;
+	color: #777;
+}
+
+#section2row p{
+	color:white;
+	margin-bottom: 110px;
+	font-size:19px;
+}
+
+
+#section2row span{
+	font-size:50px;
+	color:#222;
+	padding-bottom: 20px;
+}
+
+#section1-collapse-btn{
+	background-color:#f7f7f7;
+	border:1px solid #cdcdcd;
+	float:none;
+}
+
+#section1-collapse-btn:hover{
+	background-color: #f1f1f1;
+}
+
+#section3 h3{
+	margin:50px 0 80px 0;
+}
+
+#section3 p{
+	font-size:15px;
+}
+
+#section3-content{
+	width:100%;
+	height:100px;
+	background-color: #cdcdcd;
+}
+
+#section3button{
+	margin:60px 0 40px 0;
+}
+
+#section4{
+	background-color: #252525;
+	margin-top: -18px;
+	width: 100%;
+	min-height:180px;
+}
+#section4 h3{
+	padding-top: 25px;
+	color:#999;
+}
+#section4 img{
+	margin:30px 20px 0 20px;
+	width:50px;
+	height:50px;
+}
+
+#section4 img:hover{
+	opacity:0.6;
+	cursor:pointer;
+}
+
+
+#section5{
+	background-color: white;
+	width: 100%;
+	min-height:150px;
+}
+
+#section5img{
+	width:210px;
+	height:210px;
+	border-radius:3px;
+	margin-bottom: 20px;
+}
+#section5img:hover{
+	opacity: 0.9;
+}
+#section5 h3{
+	margin-top: 40px;
+}
+
+#galleryimages{
+	margin:70px 0 50px 0;
+}
+
+#section5 button{
+	margin-bottom: 50px;
+}
+
+#footer{
+    width: 100%;
+	background: #f0f0f0;
+	direction: rtl;
+	border-top:1px solid #cdcdcd;
+	padding-top: 20px !important;
+	padding-bottom: 45px !important;
+	
+
+}
+
+
+#aboutcontainer{
+	min-height:500px;
+}
+
+#aboutcontainer h2{
+	margin:60px 0 60px 0;
+}
+
+
+
+
+
+
+#LoginMainDiv{
+	width: 100%;
+	height: 500px;
+	background-color: white;
+}
+
+
+#LoginH1{
+	color: #449d44;
+}
+
+
+#RegisterMainDiv{
+	width: 100%;
+	height: 660px;
+	background-color: white;
+}
+
+
+#RegisterH1{
+	color: #337ab7;
+}
+
+.rtl{
+	direction: rtl;
+}
+
+#DetailContainer{
+	min-height: 550px;
+}
+
+
+#galleryimg{
+	max-width:240px;
+	height:240px;
+	border-radius:3px;
+	margin-top:40px;
+	margin-bottom: 40px;
+}
+#galleryimg:hover{
+	opacity: 0.9;
+}
+
+#DetailComment{
+	border-top:solid 1px #ccc;
+}
+.cm-p{
+
+	padding-right: 40px;
+}
+
+.cm-name{
+	color:#454545;
+
+}
+
+#price-main-div{
+	margin-top: 4rem;
+	margin-bottom: 60px;
+	min-height: 25rem;
+
+}
+
+.price-box{
+	margin-bottom: 10rem;
+
+}
+
+.inner-price-box{
+	
+	width:24rem;
+	height:23rem;
+	margin:40px auto 0 auto;	
+}
+
+.price-img{
+	border-radius: 20px 20px 0 0;
+}
+.price-description{
+	border-left: solid 1px #ccc;
+	border-right: solid 1px #ccc;
+	color:#000066;
+	font-size: 25px;
+	padding-top: 10px;
+	text-align: center;
+	margin-bottom:0;
+
+	
+	
+}
+
+.price-p{
+	border-left: solid 1px #ccc;
+	border-right: solid 1px #ccc;
+	margin-bottom: 0;
+	color:#ff3333;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 5px;
+	padding-top: 10px;
+	
+}
+
+.price-unit{
+
+	border-left: solid 1px #ccc;
+	border-right: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+	color:#656565;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius:0 0 20px 20px;
+	
+}
+.price-img:hover{
+	opacity: 0.5;
+}
+
+ #myVideo {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      max-width: 100%;
+      z-index: -1;
+      opacity: 0.5;
+    }
+
+.video-overlay{
+  
+  
+  
+  
+}
